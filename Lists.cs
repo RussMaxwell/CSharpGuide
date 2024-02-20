@@ -14,6 +14,9 @@ List<int> numbers1 = new List<int>();
 //create list with values of different types
 List<object> numbers2 = new List<object> {1, "one", 2, "two", 3, "three"};
 
+//create list with initial capacity. Reserve space ahead of time - performance optimization.
+List<object> numbers3 = new List<object>(10);
+
 
 //extend list by adding three values
 numbers1.Add(10);
