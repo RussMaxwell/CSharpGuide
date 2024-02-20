@@ -1,5 +1,5 @@
 /*
-Lists store multiple values of different types.  
+Lists store multiple values of the same type or different types.  
 They can be dynamically sized (means you can create a lists and add elements to it as you go).
 Lists are reference types and stored on the heap.
 */
