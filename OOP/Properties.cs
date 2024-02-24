@@ -5,6 +5,9 @@ Properties
     Properties can be any type (class, struct, interface, string, int, etc.)
     Auto-implemented properties are a shortcut to create a property - no need to define a private field
     Regular properties have a private field and a public property
+    typically properties are set within a classes constructor
+         for immutable types like strings, you simply assign the propertyname = "newstring"
+         for mutable types like a list, you must create a new list first and the property will reference it
 */
 
 class Animals
