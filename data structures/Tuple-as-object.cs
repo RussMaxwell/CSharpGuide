@@ -2,7 +2,8 @@
 
 //Object Tuple
     //are reference types and stored on the heap
-    //immutable - can't change values once created
+    //immutable - can't add elements to a tuple after it's created
+        //you can't change tuple elements/values post creation
     //cannot name your elements like you can with value tuples
     //recommneded to use over value tuples when working with Large tuples (Heap) or as keys in a dictionary
 
