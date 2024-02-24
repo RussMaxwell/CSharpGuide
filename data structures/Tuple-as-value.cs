@@ -3,9 +3,10 @@
 //Each item in a tuple has a position and can optionally have a name, and you can access items by their position or name.
 
 //Value Tuples
-//are value types and stoerd on the stack
-//mutable - can change their values 
-//can name your elements
+    //value types and stored on the stack
+    //immutable - cannot add elements to a value tuple after it's created
+    //can change their values - it creates a new valuetuple behind the scenes
+    //can name your elements
 
 using System;
 
