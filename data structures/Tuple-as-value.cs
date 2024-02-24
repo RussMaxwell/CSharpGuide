@@ -1,5 +1,5 @@
 ﻿//Tuples are used when you want to group together a small, fixed number of items, possibly of different types, into a single unit.
-//great for returnhing multiple values from a method without using out or ref parameters.
+//great for returning multiple values from a method without using out or ref parameters.
 //Each item in a tuple has a position and can optionally have a name, and you can access items by their position or name.
 
 //Value Tuples
